@@ -68,6 +68,20 @@ h3{
 	font-weight:bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
+h4{
+	color:#666666;
+	padding-bottom:13px;
+	padding-top:24px;
+	font-size:16pt;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+}
+h5{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:13pt;
+	padding-top:18px;
+	font-weight:normal;
+}
 #mainContentSection{
 	width:100%;
 	border-bottom:10px solid #4aaaa5;
@@ -96,10 +110,14 @@ h3{
 	padding-bottom: 35px;
 	border-bottom:4px solid #cccccc;
 	color:#4aaaa5;
+	width:620px;
 }
 .lColContent{
 	margin-top:32px;
 	margin-bottom:40px;
+	width:620px;
+	
+	
 }
 #portrait{
 	width:220px;
@@ -116,6 +134,69 @@ h3{
 	font-weight:bold;
 
 }
+
+/*Contact page content*/
+form{
+	margin-top:-10px;
+	
+}
+.inputText{
+	width:590px;
+	height:32px;
+	color:#666666;
+}
+.inputMessage{
+	width:590px;
+	height:200px;
+	color:#666666;
+}
+
+.submit{
+	border:none;
+	background-color:#4aaaa5;
+	height:42px;
+	color:white;
+	font-size:16pt;
+	margin-top:21px;
+	
+	width:117px;
+}
+/*End Contact page content*/
+
+/*Begin Portfolio page content*/
+.imageContainer{
+	width:275px;
+	height:207px;
+	position:relative;
+	float:left;
+	margin-right:35px;
+	margin-bottom:46px;
+}
+.imageContainerRt{
+	width:275px;
+	height:207px;
+	position:relative;
+	float:left;
+	margin-left:35px;
+	
+	margin-bottom:46px;
+}
+.imageContainer img{
+	position:absolute;
+	z-index:1;
+	top:0px;
+}
+.imgDescriptor{
+	width:275px;
+	height:62px;
+	position:absolute;
+	z-index:2;
+	background-color:#4aaaa5;
+	text-align:center;
+	bottom:10px;
+	color:white;
+}
+/*End Portfolio page content*/
 .rightCol{
 	background:white;
 	width:270px;
